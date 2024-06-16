@@ -1,0 +1,45 @@
+<div class="cams-wrapper">
+  <!-- карточка с камерой, она состоит из картинки и кнопки просмотреть -->
+  <mat-card>
+    <mat-card-content class="cam-card-content">
+      <!-- сама картинка -->
+      <img class="crash-stub" src="assets/crash-1-stub.png" />
+
+      <!-- кнопка "Просмотреть", при нажатии на нее переходишь на страницу с видео -->
+      <a [routerLink]="['/cams', 'crash-1']" mat-flat-button color="primary"
+        >Просмотреть</a
+      >
+    </mat-card-content>
+  </mat-card>
+
+  <!-- аналогичная карточка с камерой, на странице их 4 штуки -->
+  <mat-card>
+    <mat-card-content class="cam-card-content">
+      <img class="crash-stub" src="assets/crash-2-stub.png" />
+
+      <a [routerLink]="['/cams', 'crash-2']" mat-flat-button color="primary"
+        >Просмотреть</a
+      >
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-content class="cam-card-content">
+      <img class="crash-stub" src="assets/crash-3-stub.png" />
+
+      <a [routerLink]="['/cams', 'crash-3']" mat-flat-button color="primary"
+        >Просмотреть</a
+      >
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-content class="cam-card-content">
+      <img class="crash-stub" src="assets/crash-4-stub.png" />
+
+      <a [routerLink]="['/cams', 'crash-4']" mat-flat-button color="primary"
+        >Просмотреть</a
+      >
+    </mat-card-content>
+  </mat-card>
+</div>

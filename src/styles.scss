@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+// файл для глобальных стилей
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.cdk-overlay-pane {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 70px;
+  margin-right: 70px;
+}

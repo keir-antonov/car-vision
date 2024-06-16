@@ -1,0 +1,20 @@
+// стили для компонента
+.cams-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cam-card-content {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.crash-stub {
+  max-height: 250px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}

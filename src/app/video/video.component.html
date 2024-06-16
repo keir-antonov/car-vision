@@ -1,0 +1,10 @@
+<mat-toolbar class="toolbar">
+  <a [routerLink]="['/cams']" mat-icon-button class="example-icon">
+    <mat-icon>keyboard_backspace</mat-icon>
+  </a>
+  <span>{{ videoTitle }}</span>
+</mat-toolbar>
+
+<video width="850" autoplay>
+  <source [src]="'assets/' + videoId" type="video/mp4" />
+</video>

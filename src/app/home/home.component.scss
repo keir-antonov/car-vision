@@ -1,0 +1,19 @@
+// стили для компонента
+.main-selection {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
